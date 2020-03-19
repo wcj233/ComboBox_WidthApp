@@ -30,7 +30,7 @@ namespace ComboBoxApp
             ComboBox.Width = 50;
             ComboBox.Height = 27;
             ComboBox.Style = (Style)this.Resources["ComboBoxStyle1"];
-           
+            MyPanel.Children.Add(ComboBox);
         }
     }
 }
